@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+     background-image: url(../Basics/images/utube.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px;
+   
+}
+.fa-solid fa-house{
+    position: absolute;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+   
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(184, 21, 21, 0.511);
+    width: 60%;
+}
+
+#first{
+color: red;
+}
+
+#first::placeholder{
+    color: gold;
+}
+
+#last{
+    color: blue;
+}
+
+#last::placeholder{
+    color: gold;
+}
+
+#mail{
+    color: red;
+}
+
+#mail::placeholder{
+    color: gold;
+}
+
+#mob{
+    color: green;
+}
+
+#mob::placeholder{
+    color: gold;
+}
